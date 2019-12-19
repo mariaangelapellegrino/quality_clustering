@@ -1,0 +1,35 @@
+Numero;Denominazione;Indirizzo;Cap;Citta;Provincia;Telefono;Fax;E_Mail
+1;Accademia Pontaniana;via Mezzocannone, 8;80132;Napoli;Na;0815525015;0815527549;accponta@tin.it
+2;Associazione Alessandro Scarlatti ;Piazza dei Martiri, 58;80121;Napoli;Na;081406011;081405637;info@associazionescarlatti.it
+3;Associazione Amici del Libro ONLUS;Vico Storto Purgatorio ad Arco, 15;80138;Napoli;Na;081290768;081299744  ;associazione@guida.it
+4;Associazione Musicale Centro di Musica Antica "Pietà dei Turchini";c/o Chiesa Santa Caterina da Siena via Santa Caterina da Siena, 38;80132;Napoli;Na;081402395;081409628;info@turchini.it
+5;Associazione Pio Monte della Misericordia;via dei Tribunali, 253;80139;Napoli;Na;081446944 081446973;081445517;segreteria@piomontedellamisericordia.it 
+6;Centro Caprense Ignazio Cerio;Piazzetta Ignazio Cerio, 5;80073;Capri;Na;0818376681;0818370858;centrocaprese@tin.it
+7;Centro di Cultura e Storia Amalfitana;via Annunziatella, 44;84011;Amalfi ;Sa;089871170;089873143;ccsa@amalficoast.it
+8;Centro di Ricerca "Guido Dorso";Palazzo "V. Hugo" - Piazza XXIII Novembre;83100;Avellino;Av;082574953;082574949;info@centrodorso.it
+9;Centro Universitario Europeo per i Beni Culturali;villa Rufolo I;84010;Ravello;Sa;089857669 089858101;089857711;univeur@tiscali.it
+10;CISPE - Centro Internazionale per lo studio dei Papiri Ercolanesi "Marcello Gigante";via Porta di Massa, 1;80133;Napoli;Na;0812535432;0815526577;aurucchi@unina.it
+11;Fondazione IDIS Città della Scienza ;via Coroglio, 104;80124;Napoli;Na;0817352442 0817352601;0817352441 0817622670;cchieffo@cittadellascienza.it idis@cittadellascienza.it
+12;Fondazione Donna Regina per le arti contemporanee ;via Luigi Settembrini, 79;80100;Napoli;Na;;;
+13;Fondazione Filiberto Menna - Centro Studi di Arte Contemporanea;via Lungomare Trieste, 13;84100;Salerno;Sa;089254707;089254707;fondazione.menna@tiscalinet.it
+14;Fondazione Guido e Roberto Cortese;via Medina, 5;80133;Napoli;Na;0815513890;0815519257;
+15;Fondazione Internazionale per gli Studi Superiori di Architettura;via Crispi, 69;80121;Napoli;Na;081664282;0817612162;
+16;Fondazione Istituto Internazionale per gli Alti Studi Scientifici "Eduardo R. Caianiello";via G. Pellegrino, 19;84019;Vietri sul Mare;Sa;089761167;089761189;iiass@tin.it
+17;Fondazione Centro Studi Giambattista Vico;Palazzo de Vargas, Via G.B. Vico, snc;84070;Vatolla di Perdifumo ;Sa;0974845549 0815527641;0974845549;fondazionegbvico@libero.it
+18;Fondazione Laboratorio Mediterraneo Onlus;via Depretis, 130;80133;Napoli;Na;0815523033;0814203273;info@medlab.org
+19;Fondazione Mondragone - Istituto Educativo Femminile Mondragone;Piazzetta Mondragone, 18;80132;Napoli;Na;0814976104;081414271;istmondragone@virgilio.it
+20;Fondazione Morra - Istituto di Scienze delle Comunicazioni Visive;via Vergini, 19;80132;Napoli;Na;0814420923;081454064;fondazmorra@virgilio.it
+21;Fondazione Napoli Novantanove ONLUS;via Martucci, 69;80121;Napoli;Na;081667599;081667399;info@napolinovantanove.org
+22;Fondazione Pietro Piovani per gli Studi Vichiani;via A. Falcone, 58;80121;Napoli;Na;0815783752;0815783752;fulvio.tessitore@unina.it
+23;I.P.E. Istituto per Ricerche ed Attività Educative;Riviera di Chiaia, 264;80100;Napoli;Na;0812457074/ 76 / 81;0817648464;ipe@ipeistituto.it
+24;Istituto Italiano Studi Storici ;Pal. Filomarino - via B. Croce, 12;80134;Napoli;Na;0815517159 0815512390;0815514813;istituto@iiss.it
+25;Istituto Suor Orsola Benincasa;via Suor Orsola, 10;80135;Napoli;Na;;081421363;direzione.amministrativa@unisob.na.it
+26;Pontificia Facoltà Teologica dell'Italia Meridionale ;via Petrarca, 115;80122;Napoli;Na;0817690854 0812460111;;
+27;Soc. Coop. a r.l. di Arte e Cultura Informazione Turismo Sport e Tempo Libero "Capuanova";via Seminario, 10/12 - Palazzo Fazio;81043;Capua;Ce;0823622195;0823622944;coopcapuanova@libero.it
+28;Soc. Coop. “Le Nuvole”;via Tasso, 480;80127;Napoli;Na;0812428518 0812395666/53;;lenuvole@cittadellascienza.it info@lenuvole.com
+29;Società Napoletana Storia Patria;Castel Nuovo (Maschio angioino) Via Vittorio Emanuele III, ;80133;Napoli;Na;0815510353;0815510353;snsp@unina.it
+30;Società Nazionale di Lettere, Scienze e Arti in Napoli;via Mezzocannone, 8;80132;Napoli;Na;0815527549;0815527549;socnazsla@virgilio.it
+31;Fondazione Francesco De Martino ;Via Roma, 245;80038;Pomigliano d’Arco;Na;;;fondazione.demartino@yahoo.it
+32;Fondazione Premio Napoli;Palazzo Reale di Napoli, Piazza del Plebiscito, snc   ;80132;Napoli;NA;081403187;;fondazione@premionapoli.it
+34;Fondazione Premio Cimitile;Piazza Conte Filo della Torre, 1  Via Nazionale delle Puglie, 3;80030;Cimitile;Na;0818239927;0818239927;info@fondazionepremiocimitile.it  
+35;Istituto Campano per la Storia della Resistenza “Vera Lombardi;Via Costantino, 25;80125;Napoli;Na;081621225;;istitutocampano@libero.it

@@ -1,0 +1,43 @@
+﻿Name;ZONE_CODE;COMUNE;NOME_PROG;ZONA;STAZIONE;UBICAZIONE;GESTIONE;PM10;PM2_5;NOX_NO2;CO;BENZENE;O3;SO2;LAT;LONG
+Napoli NA01 Oss. Astronomico;IT1507;Napoli;NA01 Osservatorio Astronomico;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;40,8637;14,25451
+Napoli NA02 Osp. Santobono;IT1507;Napoli;NA02 Ospedale Santobono;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Non Previsto;Monitorato;Non Previsto;Non Previsto;Non Previsto;Non Previsto;40,84937;14,23111
+Napoli NA06 Museo Nazionale;IT1507;Napoli;NA06 Museo Nazionale;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;40,85416;14,25133
+Napoli NA07 Ferrovia;IT1507;Napoli;NA07 Ferrovia;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Aggiuntivo;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,85416;14,27174
+Napoli NA08 Osp. N. Pellegrini;IT1507;Napoli;NA08 Ospedale Nuovo Pellegrini;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Non Previsto;Monitorato;Non Previsto;Non Previsto;Non Previsto;Non Previsto;40,87233;14,27546
+Napoli NA09 via Argine;IT1507;Napoli;NA09 Via Argine;Sub-urbana;Traffico;Sub-urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,86387;14,34136
+Napoli Parco Virgiliano;IT1507;Napoli;Parco Virgiliano;Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;40,79864;14,17968
+Napoli via Epomeo;IT1507;Napoli;Epomeo (Tirrenopower);Urbana;Fondo Industriale;Urbana Fondo Industriale;Tirreno Power;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Non Previsto;40,84493;14,20567
+Acerra Zona Industriale;IT1507;Acerra;Acerra Z.I.;Sub-urbana;Industriale;Sub-urbana Industriale;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,97961;14,40101
+Pomigliano d'Arco Area ASI;IT1507;Pomigliano d'Arco;Area ASI;Sub-urbana;Industriale;Sub-urbana Industriale;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,92084;14,38494
+Portici Parco Reggia;IT1507;Portici;Parco Reggia;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;Monitorato;Non Previsto;40,81588;14,34928
+Pozzuoli Zona Villa Avellino;IT1507;Pozzuoli;Villa Avellino;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;Monitorato;40,82293;14,12253
+Volla via Filichito;IT1507;Volla;Volla (Tirrenopower);Sub-urbana;Fondo Industriale;Sub-urbana Fondo Industriale;Tirreno Power;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Non Previsto;40,88637;14,34999
+S. Vitaliano Scuola Marconi;IT1507;S.Vitaliano;Scuola Elementare Marconi;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;Monitorato;Monitorato;40,92433;14,48139
+Caserta CE51 Ist. Manzoni;IT1507;Caserta;CE51 Istituto Manzoni;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;41,07869;14,33838
+Caserta CE52 Sc. De Amicis;IT1507;Caserta;CE52 Scuola De Amicis;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;41,07693;14,3312
+Maddaloni CE54 Sc. Settembrini;IT1507;Maddaloni;CE54 Scuola Settembrini;Sub-urbana;Traffico;Sub-urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;41,04592;14,37808
+Casoria Scuola Palizzi;IT1507;Casoria;Scuola Palizzi (CAM);Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;40,91464;14,2986
+Torre Annunziata Sc. Pascoli;IT1507;Torre Annunziata;Scuola Media Pascoli;Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Non Previsto;Non Previsto;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;40,76054;14,43813
+Aversa Scuola Cirillo;IT1507;Aversa;Scuola Cirillo;Urbana;Traffico;Urbana Traffico;ARPAC;Aggiuntivo;Aggiuntivo;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;40,9755;14,2114
+Acerra Scuola Caporale;IT1507;Acerra;Scuola Caporale;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;40,94046;14,37019
+Teverola via San Lorenzo;IT1508;Teverola;Teverola (SET);Sub-urbana;Industriale;Sub-urbana Industriale;SET;Monitorato;Non Previsto;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;40,99094;14,20275
+Marcianise Regi Lagni;IT1508;Marcianise;Marcianise (SET);Sub-urbana;Fondo Industriale;Sub-urbana Fondo Industriale;SET;Monitorato;Non Previsto;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;40,99465;14,28723
+Avellino AV41 Sc. V Circolo;IT1508;Avellino;AV41 Scuola V Cimarosa;Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Aggiuntivo;Aggiuntivo;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;40,92307;14,78674
+Avellino Scuola Alighieri;IT1508;Avellino;Scuola Alighieri;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;40,91874;14,78545
+Nocera Inferiore Sc. Solimena;IT1508;Nocera Inf.;Scuola Solimene;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,74027;14,64346
+Benevento Zona Industriale;IT1508;Benevento;Benevento Z.I.;Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Monitorato;Non Previsto;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;41,14688;14,83613
+Benevento BN32 Via Mustilli;IT1508;Benevento;BN32 Via Flora;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Non Previsto;Non Previsto;41,13145;14,78939
+Benevento Campo Sportivo;IT1508;Benevento;Campo Sportivo;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;Monitorato;Non Previsto;41,11566;14,77994
+Battipaglia Parco Fiume;IT1508;Battipaglia;Parco Fiume;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;Monitorato;Monitorato;40,61107;14,97584
+Polla Area Tritovagliatore;IT1508;Polla;Area tritovagliatore;Sub-urbana;Industriale;Sub-urbana Industriale;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,48691;15,528
+Cava dei Tirreni Stadio;IT1508;Cava dei Tirreni;Stadio;Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;Monitorato;40,711;14,70245
+Salerno SA22 Osp. Via Vernieri;IT1508;Salerno;SA22 Ospedale Via Vernieri;Urbana;Traffico;Urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;40,68221;14,7663
+Salerno SA23 Scuola Conti;IT1508;Salerno;SA23 Scuola O. Conti;Sub-urbana;Fondo;Sub-urbana Fondo;ARPAC;Aggiuntivo;Aggiuntivo;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;40,69535;14,77752
+Salerno Parco Mercatello;IT1508;Salerno;Parco Mercatello;Urbana;Fondo;Urbana Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;40,66143;14,80451
+S. Felice a Cancello C. Scolastico;IT1508;San Felice a C.;Complesso scolastico;Sub-urbana;Traffico;Sub-urbana Traffico;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;40,99045;14,424
+Solofra Zona Industriale;IT1508;Solofra;Solofra Zona Industriale;Sub-urbana;Industriale;Sub-urbana Industriale;ARPAC;Monitorato;Monitorato;Monitorato;Monitorato;Monitorato;Non Previsto;Monitorato;40,83548;14,82469
+Sparanise Ferrovia;IT1508;Sparanise;Sparanise (Calenia);Sub-urbana;Industriale;Sub-urbana Industriale;Calenia;Monitorato;Non Previsto;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;41,18522;14,09216
+Pignataro M. Area Industriale;IT1508;Pignataro M.;Pignataro M.(Calenia);Sub-urbana;Fondo Industriale;Sub-urbana Fondo Industriale;Calenia;Monitorato;Non Previsto;Monitorato;Monitorato;Non Previsto;Non Previsto;Non Previsto;41,16849;14,1508
+San Gregorio Matese Lago;IT1509;S. Gregorio M.;Matese;Rurale;Fondo;Rurale Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;41,41719;14,41163
+Ottati Alburni;IT1509;Ottati;Alburni;Rurale;Fondo;Rurale Fondo;ARPAC;Monitorato;Monitorato;Monitorato;Non Previsto;Non Previsto;Monitorato;Monitorato;40,4706;15,29872
+Ariano Irpino Stadio;IT1509;Ariano Irpino;Villa Comunale;Urbana;Fondo;Urbana Fondo;ARPAC;Non Previsto;Non Previsto;Monitorato;Non Previsto;Non Previsto;Monitorato;Non Previsto;41,15607;15,09668
