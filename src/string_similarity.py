@@ -17,7 +17,7 @@ LEV_TOLLERANCE = 1
 
 
 # It computes the fuzzy matching score between two words
-def single_fuzzmatch(w1: str, w2: str):
+def single_fuzzmatch(w1, w2):
 
     w1 = w1.lower()
     w2 = w2.lower()
@@ -30,27 +30,27 @@ def single_fuzzmatch(w1: str, w2: str):
     return fuzAverage
 
 # It computes the Levensthein score between two words
-def single_lev(w1: str, w2: str):
+def single_lev(w1, w2):
     w1 = w1.lower().replace(" ", "")
     w2 = w2.lower().replace(" ", "")
     return lev.damerau_levenshtein_distance(w1, w2)
 
 # It computes the fuzzy matching score between two set of words
-def matrix_fuzzmatch(words: list):
+def matrix_fuzzmatch(words):
     start = t.time()
     matrix = np.array([[single_fuzzmatch(w1, w2) for w1 in words] for w2 in words])
     end = t.time()
     return matrix, end-start
 
 # It computes the Levensthein score between two set of words
-def matrix_lev(words: list):
+def matrix_lev(words):
     start = t.time()
     matrix = np.array([[single_lev(w1, w2) for w1 in words] for w2 in words])
     end = t.time()
     return matrix, end-start
 
 # It combines both the Fuzzy Matchind and the Levensthein scores to compute the similarity between two words
-def single_wombocombo(w1: str, w2: str, dictionary,
+def single_wombocombo(w1, w2, dictionary,
                       high_average_fuzzy=HIGH_AVERAGE_FUZZY,
                       low_average_fuzzy=LOW_AVERAGE_FUZZY,
                       high_substring_fuzzy=HIGH_SUBSTRING_FUZZY,
@@ -87,7 +87,7 @@ def single_wombocombo(w1: str, w2: str, dictionary,
     return lev_d + LOW_LEV_DIFFERENCE
 
 # It combines both the Fuzzy Matchind and the Levensthein scores to compute the similarity between two set of words
-def wombo_combo(words: list, dictionary, high_average_fuzzy=HIGH_AVERAGE_FUZZY,
+def wombo_combo(words, dictionary, high_average_fuzzy=HIGH_AVERAGE_FUZZY,
                 low_average_fuzzy=LOW_AVERAGE_FUZZY, high_substring_fuzzy=HIGH_SUBSTRING_FUZZY,
                 low_substring_fuzzy=LOW_SUBSTRING_FUZZY,
                 lev_tollerance=LEV_TOLLERANCE):
@@ -98,7 +98,7 @@ def wombo_combo(words: list, dictionary, high_average_fuzzy=HIGH_AVERAGE_FUZZY,
     end = t.time()
     return matrix, end-start
 
-def wombo_combo_matrix(words: list, dictionary, high_average_fuzzy=HIGH_AVERAGE_FUZZY,
+def wombo_combo_matrix(words, dictionary, high_average_fuzzy=HIGH_AVERAGE_FUZZY,
                 low_average_fuzzy=LOW_AVERAGE_FUZZY, high_substring_fuzzy=HIGH_SUBSTRING_FUZZY,
                 low_substring_fuzzy=LOW_SUBSTRING_FUZZY,
                 lev_tollerance=LEV_TOLLERANCE):
@@ -109,7 +109,7 @@ def wombo_combo_matrix(words: list, dictionary, high_average_fuzzy=HIGH_AVERAGE_
     end = t.time()
     return matrix, end-start
 
-def single_wombocombo_word_dictionary(w1: str, w2: str):
+def single_wombocombo_word_dictionary(w1, w2):
     w1 = w1.lower().strip()
     w2 = w2.lower().strip()
 
@@ -131,16 +131,16 @@ def single_wombocombo_word_dictionary(w1: str, w2: str):
 
     return lev_d + LOW_LEV_DIFFERENCE
 
-def wombo_combo_word_dictionary(words: list, dictionary):
+def wombo_combo_word_dictionary(words, dictionary):
     start = t.time()
     matrix = np.array([[single_wombocombo_word_dictionary(w1, w2) for w1 in dictionary] for w2 in words])
 
     end = t.time()
     return matrix, end-start
 
-def lev_distance_word_dictionary(words: list, dictionary):
+def lev_distance_word_dictionary(words, dictionary):
     start = t.time()
-    matrix = np.array([[single_lev(w1, w2) for w1 in dictionary] for w2 in words])
+    matrix = np.array([[single_lev(w1, w2) for w1 in words] for w2 in words])
     end = t.time()
     return matrix, end-start
 

@@ -6,31 +6,10 @@ import numpy as np
 from sklearn.metrics.pairwise import pairwise_distances
 import editdistance as edist
 
-from src import string_similarity
+import string_similarity
 
 
-def kmeans(matrix, n_cluster: int, words: list):
-    kmean = KMeans(n_cluster, max_iter=1000, algorithm="full")
-
-    start = t.time()
-
-    kmean.fit(matrix)
-
-    clusters = []
-
-    for index in range(0, n_cluster):
-        lista = []
-        clusters.append(lista)
-
-    for index in range(0, len(words)):
-        clusters[kmean.labels_[index]].append(words[index])
-
-    end = t.time()
-
-    return kmean, clusters, end-start
-
-
-def agglomerative_propagation(matrix, n_cluster: int, words: list):
+def agglomerative_propagation(matrix, n_cluster, words):
 
     start = t.time()
     affinity = AC(affinity="precomputed", n_clusters=n_cluster, linkage="complete", compute_full_tree=True)
@@ -49,7 +28,7 @@ def agglomerative_propagation(matrix, n_cluster: int, words: list):
 
 
 # it returns the 'centroid', i.e., the correct word or the most common one
-def find_samples(column: list, uniques, dictionary):
+def find_samples(column, uniques, dictionary):
     maxcount = 0
     maxw = ""
     column = [x.lower() for x in column]
@@ -109,7 +88,6 @@ def split(clusters, dictionary,
                 if present == "":
                     present = w
                 else:
-                    #print(w, "e", present, "nello stesso cluster!!!")
                     return True
 
     for i, group in enumerate(clusters):
@@ -120,7 +98,6 @@ def split(clusters, dictionary,
                                                        high_average_fuzzy, low_average_fuzzy,
                                                        high_substring_fuzzy, low_substring_fuzzy,
                                                        lev_tollerance) != 0:
-                    print(w1, "e", w2, "nello stesso cluster!!!")
                     return True
 
 
@@ -201,15 +178,14 @@ def propose_correction_general(clusters, dictionary):
     for i, group in enumerate(clusters):
         g = np.unique(group)
 
-#Caso 1: Nessun elemento del cluster fa parte del dizionario
+        # 1st case: no cluster element in the dictionary
 
         for w, d in product(g, dictionary):
             if string_similarity.single_wombocombo(w, d, dictionary) == 0:
                 samples.append(dictionary.get(d))
 
 
-#Caso2: Uno o più elementi del dizionario
-
+        # 2nd case: more valid values in the dctionary
         print(group)
         print(samples)
         print("-----")

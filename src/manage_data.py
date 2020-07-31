@@ -19,18 +19,18 @@ def show_clusters(cluster):
     print("\ndimensioni: ", data.shape, "\n\n", tabulate.tabulate(data, headers="keys", tablefmt="orgtbl"))
     return data.shape
 
-def load_matrix(filename: str):
+def load_matrix(filename):
     return np.load(filename)
 
 
-def save_matrix(filename: str, matrix):
+def save_matrix(filename, matrix):
     np.save(filename, matrix)
 
-def rimuovi_provincia(provincia: str):
-    i = provincia.find("(")
+def remove_province(province):
+    i = province.find("(")
     if i != -1:
-        provincia = provincia[0:i:]
-    return provincia
+        province = province[0:i:]
+    return province
 
 
 def load_csv(csv_name, column, nrows=0, encoding=DEFAULT_ENCODING):
@@ -48,7 +48,7 @@ def load_csv(csv_name, column, nrows=0, encoding=DEFAULT_ENCODING):
     return words
 
 
-def load_regions(path="dictionaries/elenco province.csv"):
+def load_regions(path="../dictionaries/elenco province.csv"):
     data = pd.read_csv(path, error_bad_lines=False, sep=";", encoding="ISO-8859-1")
     regions = np.unique(data["Regione"].to_numpy())
     key = np.array([x.lower() if isinstance(x, str) else x for x in regions])
@@ -56,7 +56,7 @@ def load_regions(path="dictionaries/elenco province.csv"):
     return dict(zip(key, value))
 
 
-def load_province(path="dictionaries/elenco province.csv"):
+def load_province(path="../dictionaries/elenco province.csv"):
     data = pd.read_csv(path, error_bad_lines=False, sep=";", encoding="ISO-8859-1")
     province = np.unique(data["Provincia"].to_numpy())
     key = np.array([x.lower() if isinstance(x, str) else x for x in province])
@@ -64,14 +64,14 @@ def load_province(path="dictionaries/elenco province.csv"):
     return dict(zip(key, value))
 
 
-def load_comuni(path="dictionaries/italian_municipalities.csv"):
+def load_municipalities(path="../dictionaries/italian_municipalities.csv"):
     data = pd.read_csv(path, error_bad_lines=False, sep=";", encoding="ISO-8859-1")
     comuni = np.unique(data["Comune"].to_numpy())
     key = np.array([x.lower() if isinstance(x, str) else x for x in comuni])
     value = np.array(comuni)
     return dict(zip(key, value))
 
-def load_comuni_as_array(path="dictionaries/italian_municipalities.csv"):
+def load_municipalities_as_array(path="../dictionaries/italian_municipalities.csv"):
     data = pd.read_csv(path, error_bad_lines=False, sep=";", encoding="ISO-8859-1")
     comuni = np.unique(data["Comune"].to_numpy())
     values = np.array(comuni)
